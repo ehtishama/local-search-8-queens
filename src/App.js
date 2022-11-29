@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import * as _8queenUtil from "./util/8queen";
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [searching, setSearching] = useState(true);
   const [currState, setCurrState] = useState(_8queenUtil.generateRandomState());
   const [minFound, setMinFound] = useState(false);
